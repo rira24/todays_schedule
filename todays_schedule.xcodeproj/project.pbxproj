@@ -11,14 +11,17 @@
 		BD6C27FC2A68459300F9CF91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6C27FB2A68459300F9CF91 /* ContentView.swift */; };
 		BD6C27FE2A68459500F9CF91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6C27FD2A68459500F9CF91 /* Assets.xcassets */; };
 		BD6C28012A68459500F9CF91 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6C28002A68459500F9CF91 /* Preview Assets.xcassets */; };
+		BDEB3E1E2A6AD29A000D576B /* Kalam-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEB3E1D2A6AD29A000D576B /* Kalam-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD02426D2A6ACC6900CD50C9 /* todays-schedule-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "todays-schedule-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BD6C27F62A68459300F9CF91 /* todays_schedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todays_schedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6C27F92A68459300F9CF91 /* todays_scheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todays_scheduleApp.swift; sourceTree = "<group>"; };
 		BD6C27FB2A68459300F9CF91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD6C27FD2A68459500F9CF91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD6C28002A68459500F9CF91 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDEB3E1D2A6AD29A000D576B /* Kalam-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kalam-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		BD6C27F82A68459300F9CF91 /* todays_schedule */ = {
 			isa = PBXGroup;
 			children = (
+				BDEB3E1C2A6AD285000D576B /* Font */,
+				BD02426D2A6ACC6900CD50C9 /* todays-schedule-Info.plist */,
 				BD6C27F92A68459300F9CF91 /* todays_scheduleApp.swift */,
 				BD6C27FB2A68459300F9CF91 /* ContentView.swift */,
 				BD6C27FD2A68459500F9CF91 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				BD6C28002A68459500F9CF91 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BDEB3E1C2A6AD285000D576B /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDEB3E1D2A6AD29A000D576B /* Kalam-Regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEB3E1E2A6AD29A000D576B /* Kalam-Regular.ttf in Resources */,
 				BD6C28012A68459500F9CF91 /* Preview Assets.xcassets in Resources */,
 				BD6C27FE2A68459500F9CF91 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"todays_schedule/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "todays-schedule-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"todays_schedule/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "todays-schedule-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
